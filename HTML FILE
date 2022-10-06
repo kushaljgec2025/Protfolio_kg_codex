@@ -9,6 +9,7 @@
 <body>
     
     <div class="main">
+        <div class="BUbble1"></div>
         <div class="navbar">
             <div class="icon">
                 <h2 class="logo">kg_<span>codex</span></h2>
@@ -18,7 +19,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT ME</a></li>
+                    <li><a href="#">ABOUT</a></li>
 
                     <li><a href="#">ACHIVEMENTS</a></li>
                     <li><a href="#">SKILL</a></li>
@@ -46,11 +47,11 @@
 
         <div class="Hero">
             <div class="dynamic-text">
-                <li><span>Competitive Programmer .</span></li>
-                <li><span>Frontend Developer .</span></li>
-                <li><span>UI/UX Desginer .</span></li>
-                <li><span>Flutter Developer .</span></li>
-                <li><span>2D & 3D Graphics Desginer .</span></li>
+                <li><span>Competitive Programmer...</span></li>
+                <li><span>Frontend Developer...</span></li>
+                <li><span>UI/UX Desginer...</span></li>
+                <li><span>Flutter Developer...</span></li>
+                <li><span>2D & 3D Graphics Desginer...</span></li>
     
             </div>
     
