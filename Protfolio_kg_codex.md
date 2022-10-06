@@ -1,0 +1,87 @@
+# Protfolio_kg_codex
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    
+    <div class="main">
+        <div class="BUbble1"></div>
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">kg_<span>codex</span></h2>
+
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+
+                    <li><a href="#">ACHIVEMENTS</a></li>
+                    <li><a href="#">SKILL</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div>
+
+        </div>
+
+        <div class="content">
+            <img src="img.jpg">
+
+            <div class="text">
+                <h4>
+                    Hi !<span> I am</span>
+                </h4>
+                <h5>KUSHAL <span>.</span></h5>
+
+            </div>
+        </div>
+
+        <div class="Hero">
+            <div class="dynamic-text">
+                <li><span>Competitive Programmer...</span></li>
+                <li><span>Frontend Developer...</span></li>
+                <li><span>UI/UX Desginer...</span></li>
+                <li><span>Flutter Developer...</span></li>
+                <li><span>2D & 3D Graphics Desginer...</span></li>
+    
+            </div>
+    
+        </div>
+
+
+        <div class="icons">
+            <a href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+
+        </div>
+        <div class="footer">
+            <h1>© Copyright Reserved 2022</h1>
+        </div>
+
+    </div>
+    
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>
