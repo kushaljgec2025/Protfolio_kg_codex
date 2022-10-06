@@ -11,12 +11,20 @@
 
 .main {
     width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    background-image: url( 'Desktop - 1.png' );
+    
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     height: 100vh;
 }
-
+.BUbble1{
+    width: 100px;
+    height: 100px;
+    background:grey;
+    border-radius:50%;
+    position: absolute;
+    top:100px;
+}
 .navbar {
     width: 1400px;
     height: 75px;
@@ -31,10 +39,6 @@
 
 
 
-span {
-    color: rgb(197, 195, 190);
-}
-
 .logo {
 
     color: #ff7200;
@@ -43,6 +47,11 @@ span {
     padding-left: 20px;
     padding-top: 10px;
     margin-top: 5px
+}
+.logo span{
+
+    color: #ececec;
+    
 }
 .icon {
     width: 200px;
@@ -96,6 +105,7 @@ ul li a {
     color: #fff;
     font-family: Arial;
     font-weight: bold;
+    letter-spacing:2px;
     transition: 0.4s ease-in-out;
 }
 
@@ -159,7 +169,7 @@ ul li a:hover {
     width: 1200px;
     height: auto;
     margin: auto;
-    color: #fff;
+    color: rgb(101, 101, 101);
     position: absolute;
 }
 h4{
@@ -168,17 +178,23 @@ h4{
     top:300px;
     font-size:36px;
 }
+
+span {
+    color: rgb(96, 96, 96);
+}
+
 h5{
     position: absolute;
     left:100px;
     top:350px;
     font-size:36px;
-    color:#ff7200;
+    color:#ff5500;
+    
     transition: 0.2s ease;
 
 }
 h5:hover{
-    color:white;
+    color:rgb(79, 79, 79);
     transform: scale(1.1);
 }
 
@@ -186,10 +202,7 @@ h5:hover{
     margin-top: 10px;
     width: 250px;
     height: auto;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 50%;
     border: 5px solid rgb(176, 175, 175);
     position: absolute;
     left: 100px;
@@ -206,21 +219,23 @@ h5:hover{
   .Hero .dynamic-text{
     margin-left: 15px;
     height: 90px;
-    color: #FC6D6D;
+    
     line-height: 90px;
     overflow: hidden;
     position: absolute;
-    top:450px;
+    top:475px;
     left:75px;
+
   }
   .dynamic-text li{
     list-style: none;
    
-
+    
     font-size: 60px;
     font-weight: 500;
     position: relative;
     top:0;
+ 
     animation: slide 12s steps(4) infinite;
   }
   @keyframes slide {
@@ -231,18 +246,22 @@ h5:hover{
   .dynamic-text li span{
     position: relative;
     margin: 5px 0;
-    line-height: 90px;
+    color:rgb(79, 79, 79);
+    padding:10px;
+
   }
-  .dynamic-txts li span::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #343F4F;
-    border-left: 2px solid #FC6D6D;
+  .dynamic-text li span:after {
+    content:"";
+    position:absolute;
+    left:0;
+    height:100%;
+    width:100%;
+    border-left:5px solid rgb(79, 79, 79);
+    background:linear-gradient(#ffffff,#ffffff);
     animation: typing 3s steps(10) infinite;
   }
+
+
   @keyframes typing {
     40%, 60%{
       left: calc(100% + 30px);
@@ -251,10 +270,14 @@ h5:hover{
       left: 0;
     }
   }
+ 
 .icons {
+    background: rgb(105, 100, 96);
+    padding:15px;
     position: absolute;
-    right:180px;
-    top:100px;
+    right:155px;
+    top:80px;
+    border-radius:15px;
     
 }
 
@@ -264,6 +287,7 @@ h5:hover{
    
     display: flex;
 }
+
 
 .icons ion-icon {
     color: #fff;
@@ -277,8 +301,10 @@ h5:hover{
 }
 
 .icons ion-icon:hover {
-    color: #ff7200;
+    color: #fd4902;
     transform:scale(1.1);
+
+   
 }
 
 h1 {
