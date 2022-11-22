@@ -9,7 +9,7 @@ I have dropped some sample of my website which have built till now.
 ![SAMPLE1](https://user-images.githubusercontent.com/108950724/203417306-afb685e2-ad4d-44a2-8e6a-619af204bf70.png)
 
 
-#SAmple 2
+#Sample 2
 ![Sample2](https://user-images.githubusercontent.com/108950724/203417364-371ee32e-a4fe-4718-a40b-87fc45a1d359.png)
 
 #Vist my protfolio:
