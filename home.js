@@ -26,6 +26,7 @@ function menuBarOpen(){
 
 // silding menu
 var counter=1;
+var gcounter=1;
 setInterval(function() {
   document.getElementById("radio"+counter).checked=true;
 
@@ -33,4 +34,15 @@ setInterval(function() {
   if (counter>4){
     counter=1;
   }
+
 },4000);
+setInterval(function() {
+  document.getElementById("cradio"+gcounter).checked=true;
+
+  gcounter++;
+  if (gcounter>4){
+    gcounter=1;
+  }
+
+},3500);
+
