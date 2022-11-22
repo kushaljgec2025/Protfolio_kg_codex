@@ -215,7 +215,7 @@ ul li a:focus {
     background: #282828;
     box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.338);
 
-    border-bottom-right-radius: 70px;
+    border-bottom-right-radius: 20px;
     z-index: 3;
 }
 
@@ -244,7 +244,7 @@ ul li a:focus {
     height: 3vw;
     border-radius: 10px;
     color: rgb(47, 82, 177);
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-family: "Poppins";
     font-weight: 700;
     letter-spacing: 0.05vw;
@@ -569,7 +569,7 @@ ul li a:focus {
     background-color: rgb(255, 174, 0);
     height: 3px;
     border: none;
-    width: 40%;
+    width: 30%;
 }
 
 .row2 .abt {
@@ -578,18 +578,16 @@ ul li a:focus {
     border-radius: 20px;
 
     font-family: "Poppins";
-    color: rgba(255, 255, 255, 0.632);
+    color: rgb(255, 255, 255);
     font-weight: 400;
     line-height: 30px;
-    background-color: rgb(51, 95, 136);
+    background-color: rgba(87, 87, 87, 0.196);
     word-spacing: 2px;
-
+    
 
 }
 
-.row2 .abt:hover {
-    background-color: rgb(33, 63, 91);
-}
+
 
 .row2 h2 {
     padding-top: 30px;
@@ -704,7 +702,7 @@ ul li a:focus {
     background-color: rgb(255, 174, 0);
     height: 3px;
     border: none;
-    width: 18%;
+    width: 15%;
 
 }
 
@@ -738,7 +736,7 @@ ul li a:focus {
     cursor: pointer;
     position: relative;
     padding: 1vw;
-
+   
     color: rgba(255, 255, 255, 0.563);
 }
 
@@ -763,7 +761,7 @@ ul li a:focus {
     padding: 1vw;
     height: 50vh;
     display: flex;
-    justify-content:space-between;
+    justify-content:flex-start;
    
 }
 
@@ -832,10 +830,15 @@ ul li a:focus {
 .tablist {
     max-height: 0;
     overflow: hidden;
-    transition: 0.5s;
+    transition: 0.2s;
     background:rgba(255, 255, 255, 0.805);
-    
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.275);
+    margin-right: 3vw;
 }
+
+
+    
+
 
 
 .tablist.active-tab {
@@ -878,15 +881,16 @@ ul li a:focus {
 
 
 .edulinks {
-    padding:  3vw 1vw 1vw ;
+    padding:  0;
+    margin-top:1em;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 80%;
+    height: 100%;
 }
 .edulinks p{
-    margin-top:1em;
+    margin-top:0.5em;
 }
 
 
@@ -900,6 +904,7 @@ ul li a:focus {
     padding: 15px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    margin-bottom: 0.5vh;
 }
 
  .edu-info .institute {
@@ -961,9 +966,10 @@ ul li a:focus {
 .edu-info{
     background-color:white;
     padding:15px;
-    margin-top:5px;
+   
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.275);
 }
 
 
@@ -1032,7 +1038,7 @@ ul li a:focus {
     background-color: rgb(255, 174, 0);
     height: 3px;
     border: none;
-    width: 30%;
+    width:25%;
     position: relative;
     top: 1vh;
 
@@ -1079,8 +1085,114 @@ box-shadow: inset -10px -10px 15px rgba(204, 223, 253, 0.107),
     height:2vw;
 }
 
-/* design */
 
+
+/* design */
+.slider{
+    width:100%;
+    height:100%;
+    border-radius:30px; 
+    overflow:hidden;
+}
+.slides{
+    width:500% ;
+    height:100%;
+    display:flex;
+}
+.slides input{
+    display:none;
+}
+.oslide{
+    width:20%;
+    transition:1s;
+
+
+}
+.oslide img{
+    width:10em;
+}
+.onavigation-manual{
+  position:absolute;
+  width:100%;
+  margin-top:0.5vh;
+ 
+  display:flex;
+  justify-content: center;
+}
+ .manual-btn1{
+    margin-top:5px;
+    border:1px solid rgb(255, 166, 97);
+    padding:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+ }
+ .manual-btn1:hover{
+  background:rgb(255, 111, 0);
+ }
+  
+ .manual-btn1:not(:last-child){
+    margin-right:3vw ;
+ }
+ #cradio1:checked ~ .ofirst1{
+    margin-left: 0;
+    
+ }
+ #cradio2:checked ~ .ofirst1{
+    margin-left: -20%;
+    
+ }
+ #cradio3:checked ~ .ofirst1{
+    margin-left: -40% ;
+    
+ }
+ #cradio4:checked ~ .ofirst1{
+    margin-left: -60%;
+   
+ }
+ /* ////////////////bnjb/ */
+
+
+.onavigation-auto{
+    position:absolute;
+    display:flex;
+    width:100%;
+    justify-content:center;
+    margin-top:93%;
+    
+ }
+.onavigation-auto div{
+    border:1px solid rgb(255, 166, 97);
+    padding:5px;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+    
+ }
+.onavigation-auto div:not(:last-child){
+    margin-right: 3vw;
+   
+ }
+ #cradio1:checked ~ .onavigation-auto .autom-btn1{
+    
+    background:rgb(255, 111, 0);
+ }
+#cradio2:checked ~ .onavigation-auto .autom-btn2{
+    
+    background:rgb(255, 111, 0);
+ }
+#cradio3:checked ~ .onavigation-auto .autom-btn3{
+    
+    background:rgb(255, 111, 0);
+ }
+#cradio4:checked ~ .onavigation-auto .autom-btn4{
+    
+    background:rgb(255, 111, 0);
+ }
+
+
+
+/*design***************/
 .slider{
     width:100%;
     height:100%;
@@ -1151,7 +1263,7 @@ box-shadow: inset -10px -10px 15px rgba(204, 223, 253, 0.107),
     display:flex;
     width:100%;
     justify-content:center;
-    margin-top:92%;
+    margin-top:93%;
     
  }
 .navigation-auto div{
@@ -1229,7 +1341,7 @@ box-shadow: inset -10px -10px 15px rgba(204, 223, 253, 0.107),
     background-color: rgb(255, 174, 0);
     height: 3px;
     border: none;
-    width: 50%;
+    width: 55%;
     position: relative;
     top: 1vh;
 }
@@ -1251,6 +1363,15 @@ box-shadow: inset -10px -10px 15px rgba(204, 223, 253, 0.107),
     margin:1.5rem 0;
     
 }
+/* .my-achi a{
+    background-color:rgb(255, 255, 255);
+    padding:5px;
+    color:black;
+    border-radius: 5px;
+    float:right;
+    
+
+} */
 .achi-point{
     font-size: 0.65rem;
     color: rgb(255, 255, 255);
@@ -1259,6 +1380,7 @@ box-shadow: inset -10px -10px 15px rgba(204, 223, 253, 0.107),
     background:rgba(255, 255, 255, 0.303);
     padding: 2em;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.093);
 }
 
 .achi-point  span{
@@ -1272,8 +1394,86 @@ box-shadow: inset -10px -10px 15px rgba(204, 223, 253, 0.107),
     
 }
 
+/***********CONTACT***************/
+#contact{
+    padding:5vw;
+}
+.left{
+    flex-basis: 35%;
+    margin:0.5rem;
+}
+.right{
+    flex-basis: 60%;
+}
+.left p{
+    margin-top:1rem;
+    font-family: "Comfortaa", cursive;
+    color: rgb(247, 247, 246);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    position: relative;
 
+    top: 2vh;
+}
+.left p i{
+    color: rgb(255, 255, 255);
+    margin-right: 1vw;
+    font-size: 1rem;
+}
+.left h1{
+    color: rgba(0, 0, 0, 0.407);
+    font-size: 2em;
+    position: relative;
+}
+.left hr{
+    background-color: rgb(255, 174, 0);
+    height: 3px;
+    border: none;
+    width:70%;
+    position: relative;
+    top: 1vh;
+    margin-bottom: 2rem;
+}
+.right form{
+  width: 100%;
 
+}
+form input, form textarea{
+      width: 100%;
+      border: 0;
+      outline: none;
+      background-color:rgba(255, 255, 255, 0.375);
+      padding:1rem;
+      margin:1rem 0;
+      color:rgb(255, 255, 255);
+      font-size: 0.7rem;
+      border-radius: 10px;
+}
+form button{
+    padding:0.5rem 1rem ;
+    background-color:rgb(231, 231, 231);
+    border: none;
+    outline: none;
+    border-radius:5px;
+    font-family: "Comfortaa", cursive;
+    font-weight:800;
+    color:rgb(88, 88, 88);
+    cursor: pointer;
+}
+form button:hover{
+    background:rgb(255, 255, 255);
+}
+#copyright{
+    width: 100%;
+    
+    text-align:center;
+    padding:5px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin:1vw;
+}
 
 
 
