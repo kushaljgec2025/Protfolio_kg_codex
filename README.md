@@ -14,3 +14,5 @@ I have dropped some sample of my website which have built till now.
 
 #Vist my protfolio:
 [kg_codex Protfolio](https://kushaljgec2025.github.io/Protfolio_kg_codex/)
+## Open in Laptop or PC.
+## As the project is underdevelopment .it isn't responding for smaller scale now. 
