@@ -1,7 +1,7 @@
 # Protfolio_kg_codex
 I have build my protfolio website using HTML CSS and Javascript.
 
-It is an ongoing process.
+It is an under development project.
 
 I have dropped some sample of my website which have built till now.
 
