@@ -13,4 +13,4 @@ I have dropped some sample of my website which have built till now.
 ![Sample2](https://user-images.githubusercontent.com/108950724/203417364-371ee32e-a4fe-4718-a40b-87fc45a1d359.png)
 
 #Vist my protfolio:
-[kg_codex Protfolio]()
+[kg_codex Protfolio](https://kushaljgec2025.github.io/Protfolio_kg_codex/)
